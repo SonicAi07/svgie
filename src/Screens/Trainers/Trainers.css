@@ -1,0 +1,129 @@
+.trainers--container {
+    width: 100%;
+}
+
+.trainers--center-div {
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.trainers--search-span {
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #121212;
+}
+
+.trainers--title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #252525;
+}
+
+.trainers--search {
+    background: #e3dfdf;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+
+.trainers--search input {
+    width: 300px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.trainers--search img {
+    width: 20px;
+}
+
+
+.trainers--content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.trainers--profile-card {
+    width: 450px;
+    height: 200px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    display: flex;
+    gap: 10px;
+    user-select: none;
+    overflow: hidden;
+    transition: 0.4s all;
+}
+
+.trainers--profile-card:hover {
+    scale: 1.05;
+}
+
+.trainers-profile-card--image {
+    background: #ffd0bd;
+    height: 250px;
+    width: 250px;
+    margin-left: -80px;
+    margin-top: -40px;
+    border-radius: 5px 0 0 5px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.trainers-profile-card--image img {
+    width: 120px;
+    position: absolute;
+    bottom: 25%;
+    right: 20px;
+    border-radius: 50%;
+}
+
+
+.trainers-profile-card--details {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px 0;
+    width: 45%;
+}
+
+.trainers-profile-card-details--name span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.trainers-profile-card-details--social-media {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.trainers-profile-card-details--social-media img {
+    width: 20px;
+}
+
+
+
+@media (max-width:768px) {
+    .trainers--title {
+        display: none;
+    }
+
+    .trainers--search {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+}

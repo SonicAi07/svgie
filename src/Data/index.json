@@ -1,0 +1,90 @@
+{
+    "Courses": [
+        {
+            "Id": "001html",
+            "title": "HTML5",
+            "uri": "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png",
+            "description": "What is an HTML explain? HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.",
+            "keyFeatures": [
+                "Platform Independent",
+                "Semantic Structure",
+                "Game development"
+            ],
+            "youtubeURL": "https://youtube.com/playlist?list=PL2PExwXGoMAz2Z6-HlL1Q78UJm4H3fUck&si=tCS_Z8Q0Z338aPOX",
+            "isActive": true
+        },
+        {
+            "Id": "002css",
+            "title": "CSS3",
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
+            "description": "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.",
+            "keyFeatures": [
+                "The syntax and forms of the language",
+                "CSS units and values and functional notations",
+                "Stacking and block-formatting contexts"
+            ],
+            "youtubeURL": "https://youtube.com/playlist?list=PL2PExwXGoMAzYW68PsDfH3_d5pNwNwhxI&si=d5CX7SAAEBu1pHcy",
+            "isActive": true
+        },
+        {
+            "Id": "003js",
+            "title": "JavaScript",
+            "uri": "https://b.kisscc0.com/20180815/zlq/kisscc0-computer-icons-logo-brand-javascript-angle-js-5b741783856f77.0690615715343348515466.png",
+            "description": "JavaScript has evolved over the past 25 years to become a versatile and accessible programming language for working with web browsers. Developers use JavaScript to build complex interactive websites and browser games, and to connect servers to websites and web applications.",
+            "keyFeatures": [
+                "Scripting Language",
+                "Interpreter Based",
+                "Cross Platform",
+                "ECMA Script",
+                "Asynchronous Programming"
+            ],
+            "youtubeURL": "https://youtube.com/playlist?list=PL2PExwXGoMAwSLaWkitngZlpl2nBlxhLp&si=aYg1Ln78d8lmLBiH",
+            "isActive": true
+        },
+        {
+            "Id": "004reactjs",
+            "title": "React Js",
+            "uri": "https://arminfoway.com/wp-content/uploads/2020/11/web-4.png",
+            "description": "React is a JavaScript library developed by Facebook which, among other things, was used to build Instagram.com. It aims to allow developers to create fast user interfaces for websites and applications alike easily. The main concept of React. js is virtual DOM.",
+            "keyFeatures": [
+                "JSX (JavaScript Syntax Extension)",
+                "irtual DOM",
+                "One-way data binding",
+                "Performance"
+            ],
+            "youtubeURL": "",
+            "isActive": true
+        },
+        {
+            "Id": "005nodejs",
+            "title": "Node Js",
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png",
+            "description": "Node. js is a single-threaded, open-source, cross-platform runtime environment for building fast and scalable server-side and networking applications. It runs on the V8 JavaScript runtime engine, and it uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.",
+            "keyFeatures": [
+                "Asynchronous Nature",
+                "Single-Threaded Working",
+                "Scalability",
+                "Multiple platform compatibility",
+                "Quick Data Streaming"
+            ],
+            "youtubeURL": "",
+            "isActive": true
+        },
+        {
+            "Id": "006mongodb",
+            "title": "MongoDB",
+            "uri": "https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png",
+            "description": "MongoDB is built on a scale-out architecture that has become popular with developers of all kinds for developing scalable applications with evolving data schemas. As a document database, MongoDB makes it easy for developers to store structured or unstructured data. It uses a JSON-like format to store documents.",
+            "keyFeatures": [
+                "Document-oriented",
+                "High Availability",
+                "Load balancing",
+                "Sharding",
+                "High Performance"
+            ],
+            "youtubeURL": "",
+            "isActive": true
+        }
+    ],
+    "Trainers": {}
+}

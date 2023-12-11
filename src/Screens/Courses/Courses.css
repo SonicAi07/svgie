@@ -1,0 +1,18 @@
+.courses {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    z-index: 20;
+}
+
+.courses-title {
+    padding: 10px;
+    border-bottom: 2px solid #c7c7c7;
+    margin-bottom: 20px;
+    /* color: #fff; */
+}
+
+.courses-title span {
+    font-size: 40px;
+}

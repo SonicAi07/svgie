@@ -1,0 +1,163 @@
+.home--container {
+    height: 100vh;
+    width: 100%;
+}
+
+.home--logo {
+    /* background: rgba(255, 255, 255, 0.9); */
+    padding: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    position: fixed;
+    top: 35%;
+    left: 5%;
+    width: 800px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    /* color: #fff; */
+}
+
+.home--logo span {
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.home--logo p {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.home--logo a {
+    text-decoration: none;
+    color: #fff;
+    background: #f25d42;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.home--logo a:hover {
+    scale: 1.1;
+}
+
+.home--logo a:active {
+    scale: 0.8;
+}
+
+.home--header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background: rgba(255, 255, 255, 0.6); */
+    background: #fcede7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    z-index: 22;
+}
+
+.home--title span {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.home--navigations {
+    width: 20%;
+    margin-right: 50px;
+}
+
+.home--navigations ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home--navigations ul li {
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.home--navigations ul li a {
+    text-decoration: none;
+    color: #f25d42;
+}
+
+.home--navigations ul li .active {
+    color: #fd3d1b;
+    font-weight: 600;
+}
+
+
+.home--navigations ul li:hover {
+    scale: 1.1;
+}
+
+
+.home--svgie-image {
+    background: #f0dad1;
+    position: relative;
+    position: absolute;
+    top: 0;
+    right: -300px;
+    width: 1000px;
+    height: 350px;
+    border-radius: 250px;
+    transform: rotate(-40deg);
+}
+
+.home--svgie-image img {
+    width: 500px;
+    transform: rotate(40deg);
+    position: absolute;
+    top: -150px;
+    left: 0;
+}
+
+
+@media (max-width:768px) {
+    .home--logo span {
+        font-size: 60px;
+    }
+
+    .home--logo p {
+        font-size: 14px;
+    }
+
+    .home--navigations {
+        width: 40%;
+    }
+
+    .home--navigations ul li {
+        font-size: 14px;
+    }
+
+    .home--svgie-image {
+        width: 600px;
+        height: 200px;
+        z-index: 1;
+        right: -350px;
+        top: -30px;
+    }
+
+    .home--svgie-image img {
+        width: 250px;
+        top: -80px;
+        left: 10px;
+    }
+
+}

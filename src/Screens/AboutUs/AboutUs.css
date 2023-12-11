@@ -1,0 +1,19 @@
+.about_us--container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.about_us--title {
+    border-bottom: 2px solid #c7c7c7;
+}
+
+.about_us--title span {
+    font-size: 40px;
+    letter-spacing: 2px;
+    /* color: #fff; */
+}
+
+
+.aboutUs--columns {
+    /* color: #fff; */
+}
