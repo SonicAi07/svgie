@@ -3,8 +3,6 @@
 .app--container {
     width: 100%;
     /* background: #121212; */
-    overflow-y: auto;
-    overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
     /* background: #fcf8f6; */
     background-image: url('./Assets/Sprinkle.svg');

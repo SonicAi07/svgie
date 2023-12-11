@@ -13,7 +13,7 @@ function CourseCard(props) {
         if (tileRef.current !== null) {
             window.addEventListener('scroll', () => {
                 if (tileRef.current !== null) {
-                    if (tileRef.current.getBoundingClientRect().top <= 450) {
+                    if (tileRef.current.getBoundingClientRect().top <= (window.outerWidth <= 768 ? 900 : 450)) {
                         setIsActive(true)
                     }
                     else {

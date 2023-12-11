@@ -35,7 +35,14 @@ function Home() {
                         <a href='https://www.youtube.com/@svgie2047' target='blank'>Click Here</a>
                     </div>
                     :
-                    <Header />
+                    <>
+                        {
+                            window.outerWidth <= 786 ?
+                                <></>
+                                :
+                                <Header />
+                        }
+                    </>
             }
             <div className='home--svgie-image'>
                 <img src={SVGIELOGO} alt='logo' />
