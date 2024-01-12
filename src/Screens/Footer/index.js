@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Footer.css"
-import Facebook from '../../Assets/facebook.png'
+// import Facebook from '../../Assets/facebook.png'
 import Instagram from '../../Assets/instagram.png'
-import LinkedIn from '../../Assets/linkedin.png'
-import Twitter from '../../Assets/twitter.png'
+// import LinkedIn from '../../Assets/linkedin.png'
+// import Twitter from '../../Assets/twitter.png'
 
 function Footer() {
     return (
