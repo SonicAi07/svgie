@@ -13,11 +13,11 @@ function AboutUs() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repudiandae velit, quasi blanditiis quam aut praesentium eligendi voluptates voluptatibus eos architecto fugiat vero magnam. Ad dolore quaerat cupiditate modi cum?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repudiandae velit, quasi blanditiis quam aut praesentium eligendi voluptates voluptatibus eos architecto fugiat vero magnam. Ad dolore quaerat cupiditate modi cum?</p>
             </div>
-            <div className='aboutUs--trainers'>
+            {/* <div className='aboutUs--trainers'>
                 <p>Check out Trainers
                     <NavLink to={'/trainers'}>Trainers</NavLink>
                 </p>
-            </div>
+            </div> */}
         </div>
     )
 }

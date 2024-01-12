@@ -36,12 +36,12 @@ function Home() {
                     </div>
                     :
                     <>
-                        {
+                        {/* {
                             window.outerWidth <= 786 ?
                                 <></>
                                 :
                                 <Header />
-                        }
+                        } */}
                     </>
             }
             <div className='home--svgie-image'>

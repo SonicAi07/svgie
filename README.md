@@ -68,3 +68,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+- Only Facebook and instagram
+
+- No Header on scroll
+
+- No trainers section
+
+- React JS palylist link need to be added.
+
+
+We are going to solve the problem of education system using knowleged sharing, we are only dealing with time not with money...
+
+People from different communities will going to help, basic JS Full Stack,
+DSA with C++.
+
+The key point is we are going to do innovation projects.
+
+
+
+Typescript
+----------
+https://youtube.com/playlist?list=PLsJDkiWcHj5dfMFuLGHjhN14sJUhtKtiB&si=dcVeByVilu0DhwYZ
+
+
+React js
+----------------------
+
+https://youtube.com/playlist?list=PLsJDkiWcHj5dAI9PSQIp2H3B6Itkg0y-z&si=w5NILSQRCLG5lk8a
+
+
+
+Nodejs
+-----------------------
+
+https://youtube.com/playlist?list=PLsJDkiWcHj5dP8GYkVVb1Cd1IetQr4DRg&si=ivm98u2f7CKHMqIn

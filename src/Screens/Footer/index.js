@@ -12,10 +12,10 @@ function Footer() {
                 <span>Find Us On</span>
             </div>
             <div className="footer--media">
-                <img src={Facebook} alt='facebook' />
-                <img src={Instagram} alt='instagram' />
-                <img src={LinkedIn} alt='linkedin' />
-                <img src={Twitter} alt='twitter' />
+                {/* <img src={Facebook} alt='facebook' /> */}
+                <a href='https://www.instagram.com/svgie.naren?igsh=MWF1bnNuNTBwdGNrZA==' target='blank'><img src={Instagram} alt='instagram' /></a>
+                {/* <img src={LinkedIn} alt='linkedin' /> */}
+                {/* <img src={Twitter} alt='twitter' /> */}
             </div>
             <div className="footer--content">
                 <span>Powered by <a href="https://www.youtube.com/@svgie2047"
